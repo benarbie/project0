@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cat Survey</title>
+    </head>
+    <body>
+        <h1>CatPhotoApp</h1>
+        <section>
+            <h2>Cat Photos</h2>
+            <p>see more <a href='https://freecatphotoapp.com/'>cat photos</a> in our gallery</p>
+            <img src="./images/cat.jpg" height="300px" width="400" alt="A cute whie puffball on jeans">
+        </section>
+
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="./images/lasagna.jpg" height="300px" width="400" alt="A moisty delicious lasagna on a plate">
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>grass</li>
+            </ol>
+            <figure>
+                <img src="./images/cat_on_grass.jpg" height="300px" width="400" alt="A happy cat eating some grass">
+                <figcaption>Cats <strong>hate</strong> grass</figcaption>
+            </figure>
+        </section>
+
+        <h2>Cat Form</h2>
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <input id="indoor" name="indoor-outdoor" type="radio" value="indoor"> Indoor
+            <input id="outdoor" name="indoor-outdoor" type="radio" value="outdoor"> Outdoor
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" name="personality" type="checkbox" value="loving"> Loving
+            <input id="lazy" name="personality" type="checkbox" value="lazy"> Lazy
+            <input id="energetic" name="personality" type="checkbox" value="energetic"> Energetic
+        </fieldset>
+
+        <input required id="catURL" type="text" placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+        <footer>
+            <p>
+                No Copyright - <a href="about-page/about.html">About Page</a>
+            </p>
+        </footer>
+    </body>
+</html>
